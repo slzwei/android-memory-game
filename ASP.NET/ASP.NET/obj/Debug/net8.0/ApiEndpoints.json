@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "ASP.NET.Controllers.ScoreController",
+    "Method": "AddScore",
+    "RelativePath": "api/Score/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "scoreRequest",
+        "Type": "ASP.NET.DTO.ScoreRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ASP.NET.Controllers.ScoreController",
+    "Method": "GetTopFive",
+    "RelativePath": "api/Score/topFive",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

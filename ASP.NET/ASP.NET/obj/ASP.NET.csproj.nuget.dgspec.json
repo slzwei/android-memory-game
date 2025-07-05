@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/lilshing/Desktop/android-memory-game/ASP.NET/ASP.NET/ASP.NET.csproj": {}
+    "C:\\Users\\prisc\\OneDrive\\Desktop\\Github\\android-memory-game\\ASP.NET\\ASP.NET\\ASP.NET.csproj": {}
   },
   "projects": {
-    "/Users/lilshing/Desktop/android-memory-game/ASP.NET/ASP.NET/ASP.NET.csproj": {
+    "C:\\Users\\prisc\\OneDrive\\Desktop\\Github\\android-memory-game\\ASP.NET\\ASP.NET\\ASP.NET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lilshing/Desktop/android-memory-game/ASP.NET/ASP.NET/ASP.NET.csproj",
+        "projectUniqueName": "C:\\Users\\prisc\\OneDrive\\Desktop\\Github\\android-memory-game\\ASP.NET\\ASP.NET\\ASP.NET.csproj",
         "projectName": "ASP.NET",
-        "projectPath": "/Users/lilshing/Desktop/android-memory-game/ASP.NET/ASP.NET/ASP.NET.csproj",
-        "packagesPath": "/Users/lilshing/.nuget/packages/",
-        "outputPath": "/Users/lilshing/Desktop/android-memory-game/ASP.NET/ASP.NET/obj/",
+        "projectPath": "C:\\Users\\prisc\\OneDrive\\Desktop\\Github\\android-memory-game\\ASP.NET\\ASP.NET\\ASP.NET.csproj",
+        "packagesPath": "C:\\Users\\prisc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\prisc\\OneDrive\\Desktop\\Github\\android-memory-game\\ASP.NET\\ASP.NET\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/lilshing/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\prisc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -68,20 +74,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.17, 8.0.17]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
-              "version": "[8.0.17, 8.0.17]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.17, 8.0.17]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -90,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/lilshing/.dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

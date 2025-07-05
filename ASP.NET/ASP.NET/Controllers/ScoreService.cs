@@ -1,5 +1,7 @@
 using ASP.NET.DTO;
 using ASP.NET.Models;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
+using System.Security.Cryptography.X509Certificates;
 
 namespace ASP.NET.Controllers;
 
@@ -21,10 +23,24 @@ public class ScoreService
         {
             Id = Guid.NewGuid().ToString(),
             Time = scoreRequest.Time,
-            User = user
+            UserId = user.Id
         };
         
         db.Score.Add(score);
         db.SaveChanges();
     }
+
+    // get top 5 of the timing and save at DTO/ScoreResult
+    public List<ScoreResult> TopFive()
+    {
+        var scoreboard = from s in db.Score
+                         join u in db.User on s.UserId equals u.Id
+                         orderby s.Time ascending
+                         select new ScoreResult { Username = u.Username, Time = s.Time };
+
+        return scoreboard.Take(5).ToList();
+    }
+
+
+
 }

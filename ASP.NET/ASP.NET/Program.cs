@@ -23,12 +23,15 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
 
 app.UseAuthorization();
+
+//Pris: to map API controllers
+app.MapControllers();
 
 app.MapControllerRoute(
     name: "default",

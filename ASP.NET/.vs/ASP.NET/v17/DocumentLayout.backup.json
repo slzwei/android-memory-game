@@ -1,0 +1,198 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\prisc\\OneDrive\\Desktop\\Github\\android-memory-game\\ASP.NET\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05469A6F-1039-414C-9007-E9C0CDF10BD6}|ASP.NET\\ASP.NET.csproj|c:\\users\\prisc\\onedrive\\desktop\\github\\android-memory-game\\asp.net\\asp.net\\dto\\scorerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05469A6F-1039-414C-9007-E9C0CDF10BD6}|ASP.NET\\ASP.NET.csproj|solutionrelative:asp.net\\dto\\scorerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05469A6F-1039-414C-9007-E9C0CDF10BD6}|ASP.NET\\ASP.NET.csproj|c:\\users\\prisc\\onedrive\\desktop\\github\\android-memory-game\\asp.net\\asp.net\\controllers\\scorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05469A6F-1039-414C-9007-E9C0CDF10BD6}|ASP.NET\\ASP.NET.csproj|solutionrelative:asp.net\\controllers\\scorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05469A6F-1039-414C-9007-E9C0CDF10BD6}|ASP.NET\\ASP.NET.csproj|c:\\users\\prisc\\onedrive\\desktop\\github\\android-memory-game\\asp.net\\asp.net\\dto\\scoreresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05469A6F-1039-414C-9007-E9C0CDF10BD6}|ASP.NET\\ASP.NET.csproj|solutionrelative:asp.net\\dto\\scoreresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05469A6F-1039-414C-9007-E9C0CDF10BD6}|ASP.NET\\ASP.NET.csproj|c:\\users\\prisc\\onedrive\\desktop\\github\\android-memory-game\\asp.net\\asp.net\\controllers\\scoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05469A6F-1039-414C-9007-E9C0CDF10BD6}|ASP.NET\\ASP.NET.csproj|solutionrelative:asp.net\\controllers\\scoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05469A6F-1039-414C-9007-E9C0CDF10BD6}|ASP.NET\\ASP.NET.csproj|c:\\users\\prisc\\onedrive\\desktop\\github\\android-memory-game\\asp.net\\asp.net\\models\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05469A6F-1039-414C-9007-E9C0CDF10BD6}|ASP.NET\\ASP.NET.csproj|solutionrelative:asp.net\\models\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05469A6F-1039-414C-9007-E9C0CDF10BD6}|ASP.NET\\ASP.NET.csproj|c:\\users\\prisc\\onedrive\\desktop\\github\\android-memory-game\\asp.net\\asp.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05469A6F-1039-414C-9007-E9C0CDF10BD6}|ASP.NET\\ASP.NET.csproj|solutionrelative:asp.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05469A6F-1039-414C-9007-E9C0CDF10BD6}|ASP.NET\\ASP.NET.csproj|c:\\users\\prisc\\onedrive\\desktop\\github\\android-memory-game\\asp.net\\asp.net\\models\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05469A6F-1039-414C-9007-E9C0CDF10BD6}|ASP.NET\\ASP.NET.csproj|solutionrelative:asp.net\\models\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05469A6F-1039-414C-9007-E9C0CDF10BD6}|ASP.NET\\ASP.NET.csproj|c:\\users\\prisc\\onedrive\\desktop\\github\\android-memory-game\\asp.net\\asp.net\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05469A6F-1039-414C-9007-E9C0CDF10BD6}|ASP.NET\\ASP.NET.csproj|solutionrelative:asp.net\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05469A6F-1039-414C-9007-E9C0CDF10BD6}|ASP.NET\\ASP.NET.csproj|c:\\users\\prisc\\onedrive\\desktop\\github\\android-memory-game\\asp.net\\asp.net\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{05469A6F-1039-414C-9007-E9C0CDF10BD6}|ASP.NET\\ASP.NET.csproj|solutionrelative:asp.net\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05469A6F-1039-414C-9007-E9C0CDF10BD6}|ASP.NET\\ASP.NET.csproj|c:\\users\\prisc\\onedrive\\desktop\\github\\android-memory-game\\asp.net\\asp.net\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05469A6F-1039-414C-9007-E9C0CDF10BD6}|ASP.NET\\ASP.NET.csproj|solutionrelative:asp.net\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05469A6F-1039-414C-9007-E9C0CDF10BD6}|ASP.NET\\ASP.NET.csproj|c:\\users\\prisc\\onedrive\\desktop\\github\\android-memory-game\\asp.net\\asp.net\\controllers\\memorygamecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05469A6F-1039-414C-9007-E9C0CDF10BD6}|ASP.NET\\ASP.NET.csproj|solutionrelative:asp.net\\controllers\\memorygamecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Score.cs",
+              "DocumentMoniker": "C:\\Users\\prisc\\OneDrive\\Desktop\\Github\\android-memory-game\\ASP.NET\\ASP.NET\\Models\\Score.cs",
+              "RelativeDocumentMoniker": "ASP.NET\\Models\\Score.cs",
+              "ToolTip": "C:\\Users\\prisc\\OneDrive\\Desktop\\Github\\android-memory-game\\ASP.NET\\ASP.NET\\Models\\Score.cs",
+              "RelativeToolTip": "ASP.NET\\Models\\Score.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T03:36:19.585Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScoreService.cs",
+              "DocumentMoniker": "C:\\Users\\prisc\\OneDrive\\Desktop\\Github\\android-memory-game\\ASP.NET\\ASP.NET\\Controllers\\ScoreService.cs",
+              "RelativeDocumentMoniker": "ASP.NET\\Controllers\\ScoreService.cs",
+              "ToolTip": "C:\\Users\\prisc\\OneDrive\\Desktop\\Github\\android-memory-game\\ASP.NET\\ASP.NET\\Controllers\\ScoreService.cs",
+              "RelativeToolTip": "ASP.NET\\Controllers\\ScoreService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T14:11:20.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ScoreController.cs",
+              "DocumentMoniker": "C:\\Users\\prisc\\OneDrive\\Desktop\\Github\\android-memory-game\\ASP.NET\\ASP.NET\\Controllers\\ScoreController.cs",
+              "RelativeDocumentMoniker": "ASP.NET\\Controllers\\ScoreController.cs",
+              "ToolTip": "C:\\Users\\prisc\\OneDrive\\Desktop\\Github\\android-memory-game\\ASP.NET\\ASP.NET\\Controllers\\ScoreController.cs",
+              "RelativeToolTip": "ASP.NET\\Controllers\\ScoreController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T10:32:44.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\prisc\\OneDrive\\Desktop\\Github\\android-memory-game\\ASP.NET\\ASP.NET\\appsettings.json",
+              "RelativeDocumentMoniker": "ASP.NET\\appsettings.json",
+              "ToolTip": "C:\\Users\\prisc\\OneDrive\\Desktop\\Github\\android-memory-game\\ASP.NET\\ASP.NET\\appsettings.json",
+              "RelativeToolTip": "ASP.NET\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-05T10:02:03.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\prisc\\OneDrive\\Desktop\\Github\\android-memory-game\\ASP.NET\\ASP.NET\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "ASP.NET\\Models\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\prisc\\OneDrive\\Desktop\\Github\\android-memory-game\\ASP.NET\\ASP.NET\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "ASP.NET\\Models\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T10:00:28.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ScoreResult.cs",
+              "DocumentMoniker": "C:\\Users\\prisc\\OneDrive\\Desktop\\Github\\android-memory-game\\ASP.NET\\ASP.NET\\DTO\\ScoreResult.cs",
+              "RelativeDocumentMoniker": "ASP.NET\\DTO\\ScoreResult.cs",
+              "ToolTip": "C:\\Users\\prisc\\OneDrive\\Desktop\\Github\\android-memory-game\\ASP.NET\\ASP.NET\\DTO\\ScoreResult.cs",
+              "RelativeToolTip": "ASP.NET\\DTO\\ScoreResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T08:04:23.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\prisc\\OneDrive\\Desktop\\Github\\android-memory-game\\ASP.NET\\ASP.NET\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ASP.NET\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\prisc\\OneDrive\\Desktop\\Github\\android-memory-game\\ASP.NET\\ASP.NET\\Models\\User.cs",
+              "RelativeToolTip": "ASP.NET\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T07:53:46.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\prisc\\OneDrive\\Desktop\\Github\\android-memory-game\\ASP.NET\\ASP.NET\\Program.cs",
+              "RelativeDocumentMoniker": "ASP.NET\\Program.cs",
+              "ToolTip": "C:\\Users\\prisc\\OneDrive\\Desktop\\Github\\android-memory-game\\ASP.NET\\ASP.NET\\Program.cs",
+              "RelativeToolTip": "ASP.NET\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T04:04:20.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MemoryGameContext.cs",
+              "DocumentMoniker": "C:\\Users\\prisc\\OneDrive\\Desktop\\Github\\android-memory-game\\ASP.NET\\ASP.NET\\Controllers\\MemoryGameContext.cs",
+              "RelativeDocumentMoniker": "ASP.NET\\Controllers\\MemoryGameContext.cs",
+              "ToolTip": "C:\\Users\\prisc\\OneDrive\\Desktop\\Github\\android-memory-game\\ASP.NET\\ASP.NET\\Controllers\\MemoryGameContext.cs",
+              "RelativeToolTip": "ASP.NET\\Controllers\\MemoryGameContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T03:42:07.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DbSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\prisc\\OneDrive\\Desktop\\Github\\android-memory-game\\ASP.NET\\ASP.NET\\Models\\DbSeeder.cs",
+              "RelativeDocumentMoniker": "ASP.NET\\Models\\DbSeeder.cs",
+              "ToolTip": "C:\\Users\\prisc\\OneDrive\\Desktop\\Github\\android-memory-game\\ASP.NET\\ASP.NET\\Models\\DbSeeder.cs",
+              "RelativeToolTip": "ASP.NET\\Models\\DbSeeder.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T03:37:42.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ScoreRequest.cs",
+              "DocumentMoniker": "C:\\Users\\prisc\\OneDrive\\Desktop\\Github\\android-memory-game\\ASP.NET\\ASP.NET\\DTO\\ScoreRequest.cs",
+              "RelativeDocumentMoniker": "ASP.NET\\DTO\\ScoreRequest.cs",
+              "ToolTip": "C:\\Users\\prisc\\OneDrive\\Desktop\\Github\\android-memory-game\\ASP.NET\\ASP.NET\\DTO\\ScoreRequest.cs",
+              "RelativeToolTip": "ASP.NET\\DTO\\ScoreRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T03:36:21.779Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
