@@ -36,9 +36,9 @@ class PlayFragment : Fragment() {
     private lateinit var cardRecycler: RecyclerView
     private lateinit var matchCounter: TextView
     private lateinit var timer: TextView
-    private lateinit var bestTime: TextView
     private lateinit var adView: FrameLayout
     private lateinit var soundPool: SoundPool
+    private lateinit var mediaPlayer: MediaPlayer
     private var sounderror: Int = 0
     private var soundflip: Int = 0
     private var soundflipback: Int = 0
@@ -73,7 +73,6 @@ class PlayFragment : Fragment() {
         cardRecycler = view.findViewById<RecyclerView>(R.id.cardRecycler)
         matchCounter = view.findViewById(R.id.matchCounter)
         timer = view.findViewById(R.id.timer)
-        bestTime = view.findViewById(R.id.bestTimeTextView)
         adView = view.findViewById(R.id.adView)
         return view
     }
@@ -89,11 +88,9 @@ class PlayFragment : Fragment() {
         soundflip = soundPool.load(context, R.raw.flip, 1)
         soundflipback = soundPool.load(context, R.raw.flip_back, 1)
         soundmatchmusic = soundPool.load(context, R.raw.match_music, 1)
-        soundwin = soundPool.load(context, R.raw.win, 1)
 
         //initalising music, counter, best time and timer
         startBGM()
-        loadBestTime()
         updateMatchCounter()
         updateTimerText(0)
 
@@ -166,8 +163,12 @@ class PlayFragment : Fragment() {
 
             if (firstPosition == null) {
                 firstPosition = position
-                imageView.isClickable=false
-                imageView.isEnabled=false
+                isFlipping = true
+                handler.postDelayed({
+                    isFlipping = false
+                }, 300)
+                imageView.isEnabled = false
+                imageView.isClickable = false
             } else {
                 isFlipping = true
                 val first = firstPosition!!
@@ -182,20 +183,25 @@ class PlayFragment : Fragment() {
                     if (firstViewHolder is CardAdapter.CardViewHolder) {
                         cardAdapter?.markAsMatched(firstViewHolder.imageView, first)
                     }
-                    
                     cardAdapter?.markAsMatched(imageView, second)
+                    cardAdapter?.notifyItemChanged(first)
+                    cardAdapter?.notifyItemChanged(second)
 
                     handler.postDelayed({
                         matchedCount++
                         updateMatchCounter()
                         if (matchedCount == 6) {
-                            soundPool.play(soundwin, 1f, 1f, 1, 0, 1f)
                             stopTimer()
                             Toast.makeText(context, "All matched! Congratulation!", Toast.LENGTH_SHORT).show()
-                            saveBestTimeIfNeeded(seconds)
                             //LST: add the addScore funtion
                             addScoreWithRetrofit(seconds)
-                            view?.findNavController()?.navigate(R.id.action_play_to_leaderboard)
+                            val mediaPlayer = MediaPlayer.create(context, R.raw.win)
+                            mediaPlayer.setOnCompletionListener {
+                                val action = PlayFragmentDirections.actionPlayToLeaderboard(seconds)
+                                view?.findNavController()?.navigate(action)
+                                mediaPlayer.release()
+                            }
+                            mediaPlayer.start()
                         }
                         isFlipping = false
                         firstPosition = null
@@ -271,22 +277,6 @@ class PlayFragment : Fragment() {
         bgmPlayer?.stop()
         bgmPlayer?.release()
         bgmPlayer= null
-    }
-
-    private fun loadBestTime() {
-        val sharedPref = requireActivity().getPreferences(Context.MODE_PRIVATE)
-        val best = sharedPref.getInt("BEST_TIME", Int.MAX_VALUE)
-        if (best != Int.MAX_VALUE) {
-            bestTime.text = "Best Time: ${String.format("%02d:%02d", best / 60, best % 60)}"
-        }
-    }
-
-    private fun saveBestTimeIfNeeded(current: Int) {
-        val sharedPref = requireActivity().getPreferences(Context.MODE_PRIVATE)
-        val best = sharedPref.getInt("BEST_TIME", Int.MAX_VALUE)
-        if (current < best) {
-            sharedPref.edit().putInt("BEST_TIME", current).apply()
-        }
     }
 
     override fun onDestroyView() {

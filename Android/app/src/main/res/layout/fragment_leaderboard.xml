@@ -34,6 +34,7 @@
             android:id="@+id/yourScoreText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="0"
             android:textColor="@color/black"
             android:textSize="20sp"
@@ -50,13 +51,8 @@
         android:textSize="30dp"
         android:layout_gravity="center"/>
 
-    <TableLayout
-        android:id="@+id/leaderboardTable"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"/>
-
-    <View
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/scoreRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1" />

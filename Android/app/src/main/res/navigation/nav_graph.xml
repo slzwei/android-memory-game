@@ -35,6 +35,9 @@
         android:id="@+id/leaderboardFragment"
         android:name="iss.nus.edu.sg.memory_game.fragment.LeaderboardFragment"
         android:label="Leaderboard" >
+        <argument
+            android:name="score"
+            app:argType="integer" />
         <action
             android:id="@+id/action_leaderboard_to_fetch"
             app:destination="@id/fetchFragment" />

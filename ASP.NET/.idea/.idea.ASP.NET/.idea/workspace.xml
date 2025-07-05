@@ -8,23 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3bc2395-96f8-42a5-aadf-93ec79e0a20e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/caches/deviceStreaming.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ASP.NET/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ASP.NET/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ASP.NET/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ASP.NET/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ASP.NET/obj/ASP.NET.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ASP.NET/obj/ASP.NET.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ASP.NET/obj/ASP.NET.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ASP.NET/obj/ASP.NET.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ASP.NET/obj/Debug/net8.0/ASP.NET.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ASP.NET/obj/Debug/net8.0/ASP.NET.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ASP.NET/obj/Debug/net8.0/ASP.NET.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ASP.NET/obj/Debug/net8.0/ASP.NET.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ASP.NET/obj/Debug/net8.0/ASP.NET.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ASP.NET/obj/Debug/net8.0/ASP.NET.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ASP.NET/obj/Debug/net8.0/ASP.NET.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ASP.NET/obj/Debug/net8.0/ASP.NET.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ASP.NET/obj/Debug/net8.0/ASP.NET.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ASP.NET/obj/Debug/net8.0/ASP.NET.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ASP.NET/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ASP.NET/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ASP.NET/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ASP.NET/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ASP.NET/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ASP.NET/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ASP.NET/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/ASP.NET/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ASP.NET/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ASP.NET/obj/rider.project.restore.info" afterDir="false" />
-    </list>
+    <list default="true" id="c3bc2395-96f8-42a5-aadf-93ec79e0a20e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,6 +105,7 @@
       <workItem from="1751336902305" duration="1356000" />
       <workItem from="1751590113663" duration="3891000" />
       <workItem from="1751616874005" duration="138000" />
+      <workItem from="1751620716489" duration="667000" />
     </task>
     <servers />
   </component>
